@@ -1,0 +1,10 @@
+body {
+  font-family: "Segoe UI";
+  background: #222;
+  color: #eee;
+}
+
+body > div:first-child {
+  padding-bottom: 30px;
+  border-bottom: 1px solid;
+}

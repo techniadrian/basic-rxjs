@@ -1,0 +1,46 @@
+<!-- https://github.com/techniadrian/message-patterns -->
+
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/7.5.7/rxjs.umd.min.js"></script>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./patterns/observable.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <h1>Dane:</h1>
+      <input id="data" type="text" autofocus="true" />
+    </div>
+    <div>
+      <h1>Konsumenci:</h1>
+      <div>
+        <h3>Normalny</h3>
+        <span id="normal-consumer"></span>
+      </div>
+      <div>
+        <h3>Wielkimi literami</h3>
+        <span id="upper-case-consumer"></span>
+      </div>
+      <div>
+        <h3>Opóźniony</h3>
+        <span id="delayed-consumer"></span>
+      </div>
+      <div>
+        <h3>Opóźniony i wielkimi literami</h3>
+        <span id="upper-case-and-delayed-consumer"></span>
+      </div>
+      <div>
+        <h3>Normalny tylko z "dupa"</h3>
+        <span id="normal-consumer-only-with-dupa"></span>
+      </div>
+      <div>
+        <h3>Ocenzurowany tylko z "dupa"</h3>
+        <span id="censored-consumer-only-with-dupa"></span>
+      </div>
+    </div>
+  </body>
+</html>
